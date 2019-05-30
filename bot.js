@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const XMLHttpRequest = require("xhr2");
+const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 function getWebsite(e) {
     var t = new XMLHttpRequest;
     return t.open("GET", e, !1), t.send(), t.responseText
