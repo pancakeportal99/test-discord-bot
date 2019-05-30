@@ -1,6 +1,6 @@
 {
-  "name": "Example",
-  "description": "Example",
+  "name": "Random Scooter Quotes",
+  "description": "random scooter quotes",
   "version": "0.0.0",
   "main": "bot.js",
   "scripts": {
