@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!quote') {
-       message.reply('pong');
+       message.channel.send('My Message');
        }
 });
 
