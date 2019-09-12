@@ -21,7 +21,7 @@ client.on('message', message => {
         } else {
         author = "H.P Baxxter";
         };
-       var content = "**\"" + scooter.quote.text + "\"** \n\t\t- " + author + ", " + scooter.quote.track + " (" + scooter.quote.year + ")"
+       var content = "**\"" + scooter.quote.text + "\"** \n\t\t- " + author + ", " + scooter.quote.track + " (" + scooter.quote.year + ")";
        message.channel.send(content);
        }
 });
