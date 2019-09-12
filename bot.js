@@ -14,7 +14,14 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === '!quote') {
        var scooter = JSON.parse(getWebsite("https://howmuchisthe.fish/json/random"));
-       var content = "**\"" + scooter.quote.text + "\"** \n\t\t- H.P Baxxter, " + scooter.quote.track + " (" + scooter.quote.year + ")"
+       if (scooter.id == 60) {
+        author = "Dick Rules";
+        } else if (scooter.id == 89 || scooter.id == 90 || scooter.id == 91) {
+        author = "Unnamed Woman";
+        } else {
+        author = "H.P Baxxter";
+        }
+       var content = "**\"" + scooter.quote.text + "\"** \n\t\t- " + author + ", " + scooter.quote.track + " (" + scooter.quote.year + ")"
        message.channel.send(content);
        }
 });
