@@ -20,7 +20,7 @@ client.on('message', message => {
         author = "Unnamed Woman";
         } else {
         author = "H.P Baxxter";
-        }
+        };
        var content = "**\"" + scooter.quote.text + "\"** \n\t\t- " + author + ", " + scooter.quote.track + " (" + scooter.quote.year + ")"
        message.channel.send(content);
        }
