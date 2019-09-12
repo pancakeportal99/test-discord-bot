@@ -17,7 +17,7 @@ client.on('message', message => {
        if (scooter.id == 60) {
         author = "Dick Rules";
         } else if (scooter.id == 89 || scooter.id == 90 || scooter.id == 91) {
-        author = "Unnamed Woman";
+        author = "Nicole Sukar";
         } else {
         author = "H.P Baxxter";
         };
