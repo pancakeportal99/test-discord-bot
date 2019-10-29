@@ -3,4 +3,3 @@ https://discordapp.com/oauth2/authorize?client_id=479518095975645203&permissions
 # Credits
 - [howmuchisthe.fish](http://howmuchisthe.fish/)  
 - [discord.js](https://github.com/discordjs/discord.js/)  
-- [xmlhttprequest](https://www.npmjs.com/package/xmlhttprequest)  
