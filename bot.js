@@ -1174,7 +1174,7 @@ var model = [
 
 ];
 function scooter() {
-    var id = Math.floor(Math.random() * 167
+    var id = Math.floor(Math.random() * 167)
     var scoot = model[id];
        if (id == 60) {
         author = "Dick Rules";
