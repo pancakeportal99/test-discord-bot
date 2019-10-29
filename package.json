@@ -1,6 +1,6 @@
 {
-  "name": "Random Scooter Quotes",
-  "description": "random scooter quotes",
+  "name": "RandomScooterQuotes",
+  "description": "RSQ",
   "version": "0.0.0",
   "main": "bot.js",
   "scripts": {
@@ -8,8 +8,6 @@
   },
 
   "dependencies": {
-    "discord.js": "11.5.1",
-    "request": "2.81.0",
-    "xmlhttprequest": "1.8.0"
+    "discord.js": "11.5.1"
   }
 }
