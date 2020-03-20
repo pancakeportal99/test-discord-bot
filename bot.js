@@ -1176,13 +1176,18 @@ var model = [
 function scooter() {
     var id = Math.floor(Math.random() * 167)
     var scoot = model[id];
-       if (id == 60) {
-        author = "Dick Rules";
-        } else if (id == 89 || id == 90 || id == 91) {
-        author = "Nicole Sukar";
-        } else {
-        author = "H.P Baxxter";
-        };
+      switch (id) {
+    case 60:
+      author = "Dick Rules";
+      break;
+    case 89:
+    case 90:
+    case 91:
+      author = "Nicole Sukar";
+      break;
+    default:
+      author = "H.P Baxxter";
+  };
        var content = "**\"" + scoot.text + "\"** \n\t\t- " + author + ", " + scoot.track + " (" + scoot.year + ")";
         return content;
 }
